@@ -1,0 +1,34 @@
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: black;
+}
+
+.cell {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+}
+
+#board {
+	padding: 1px;
+	background-color: black;
+	width: 640px;
+	height: 640px;
+}
+
+.dark_checker {
+	background-image: url('images/tem_shashka.gif');
+}
+
+.light_checker {
+	background-image: url('images/sv_shashka.gif');
+}
